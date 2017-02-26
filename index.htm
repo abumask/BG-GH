@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp">
+<head>
+    <title>Help a Big Kid</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="./css/main-page.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+</head>
+<body>
+    <!-- Page Header -->
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+    </div>
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header" style="margin-left:5px">
+                    <a class="navbar-brand" href="/">
+                        Create your Dream <i class="fa fa-hand-o-up" aria-hidden="true"></i>
+                        Help fulfil others
+                    </a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right" style="margin-right:5px">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="row text-center">
+        <div classstyle="col-lg-10 col-lg-offset-1">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div>
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#797e84"></i>
+                            <i class="fa fa-user fa-stack-1x text-primary" style="color:white"></i>
+                        </span>
+                        <h4>
+                            <strong>Mentors</strong>
+                        </h4>
+                        <a class="btn btn-dark" href="#">Sign me up as a Mentor</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div>
+                        <h2>
+                            <strong>About this project</strong>
+                        </h2>
+                    </div>
+                    <div>
+                        <div style="color:gray">
+                                <h4><strong>For the Nepalis leaving the good life, a pathway to contribute to the ones looking for guidance.</strong></h4>
+                                <h4 ><strong>For other Nepalis, a pathway to get guidance to make the best choices for their education, career, and life.</strong> </h4>
+                            </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-3 col-sm-3">
+                        <div>
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x" style="color:#797e84"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary" style="color:white"></i>
+                            </span>
+                            <h4>
+                                <strong>Mentees</strong>
+                            </h4>
+                            <a class="btn btn-dark" href="#">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="container">
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <div id="div-register-msg">
+                                    <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                    <span id="text-register-msg">Register an account.</span>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <input id="register_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+                                <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                                <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+
+                                <div class="modal-footer">
+                                    <div>
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+                                    </div>
+                                    <div>
+                                        <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                                        <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x" style="color:#797eb4"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary" style="color:#e74c6c;"></i>
+                            </span>
+                            <h4>
+                                <strong>Resources</strong>
+                            </h4>
+                            <p>Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+
+
+        </div>
+    </div>
+    <footer>
+        <hr />
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Help a Big Kid</strong></h4>
+                    <p>
+                        Maharjgunj
+                        <br>Kathmandu, Nepal
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li>
+                            <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">abumask1@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright ©Abumask 2016</p>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-dark btn-lg" id="to-top" style="display: block; position: fixed;" href="#top"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+</body>
+</html>
